@@ -1,10 +1,10 @@
 from discord.ext import commands
-from simpcalc import Calculate
+from simpcalc import simpcalc
 
 class Calc(commands.Cog):
 	  def __init__(self, bot):
 		    self.bot = bot
-        self.calculator = Calculate()
+        self.calculator = simpcalc.Calculate()
         
     @commands.command()
     async def calculate(self, ctx, *, expr = None):
