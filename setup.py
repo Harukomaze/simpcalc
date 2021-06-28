@@ -25,7 +25,7 @@ setup(
     keywords="discord discord-calc calculator easy-calc simple-calculator discord.py",  # used when people are searching for a module, keywords separated with a space
     packages=find_packages(),
     install_requires=[
-        "aiohttp", "urllib3", "z"
+        "aiohttp", "urllib3"
     ],  # a list of other Python modules which this module depends on.  For example RPi.GPIO
     include_package_data=True
 )
