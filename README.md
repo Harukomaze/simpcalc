@@ -3,9 +3,9 @@ A pip package which uses math.js api for calculations
 
 # Usage
 ```py
-from simpcalc import Calculate
+from simpcalc import simpcalc
 
-calculator = Calculate()
+calculator = simpcalc.Calculate()
 
 
 print(calculator.calculate('1 + 2 * 2 / 2 ** 2 ^ 2 + sqrt(3) + (7*56)'))
