@@ -10,7 +10,7 @@ class Calc(commands.Cog):
     async def calculate(self, ctx, *, expr = None):
         if not expr:
           return await ctx.send('You have to provide an equation to calculate!')
-        result = self.calculator.calculate(expr)
+        result = await self.calculator.calculate(expr)
         await ctx.send(f'The result is {result}')
         
         
