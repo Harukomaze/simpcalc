@@ -13,8 +13,8 @@ classifiers = [
 
 setup(
     name="simpcalc",
-    version="0.0.1",
-    description="A lib",
+    version="0.0.2",
+    description="A python lib that uses math.js api to calculate equations!",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
     url="https://github.com/Harukomaze/simpcalc",
