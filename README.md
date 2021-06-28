@@ -1,6 +1,10 @@
 # simpcalc
 A pip package which uses math.js api for calculations
 
+```py
+pip install simpcalci
+```
+
 # Usage
 ```py
 from simpcalc import simpcalc
