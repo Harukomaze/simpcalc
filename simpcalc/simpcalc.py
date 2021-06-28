@@ -1,7 +1,7 @@
 import asyncio
 import aiohttp
 import urllib.parse
-from errors import Overflow, BadArgument
+from simpcalc.errors import Overflow, BadArgument
 
 
 class Calculate:
